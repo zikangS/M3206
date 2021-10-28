@@ -1,5 +1,5 @@
 # M3206
-* PROJECT NAME *
+* Automatisation des tâches d’administration système *
 
 
 **Table of Content**
@@ -53,7 +53,7 @@ How to execute the program :
 	1. Select an option from (1-7) according to your choice
 	
 			Option:
-			1 : user time analysis
+			1 : User time analysis
 			2 : Machine analysis
 			3 : Error analysis
 			4 : Page analysis
