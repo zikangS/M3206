@@ -53,11 +53,11 @@ How to execute the program :
 	1. Select an option from (1-7) according to your choice
 	
 			Option:
-			1- 
-			2-
-			3-
-			4-
-			5-
-			6-
-			7-
+			1 : user time analysis
+			2 : Machine analysis
+			3 : Error analysis
+			4 : Page analysis
+			5 : IP address analysis
+			6 : Bytes analysis
+			7 : All
 	
