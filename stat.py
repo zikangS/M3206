@@ -197,7 +197,7 @@ def analyse_machine():
 	print('HTC                 : '+'['+'■'*round(HTC/total*40)+']  ' + "{:.2f}".format(HTC/total*100) +'%')
 	print('Bots                : '+'['+'■'*round(nothing/total*40)+']  ' + "{:.2f}".format(nothing/total*100) +'%')
 
-#fonction pour le choix d'analysis 
+
 def option_stats (n) :
 	if n==1:
 		time_range()
@@ -240,8 +240,14 @@ def option_stats (n) :
 	else :
 		print('Input 1-8 only')
 
-
+print('Type "help" for more information')
 filename=str(input('File name? -->'))
+
+if filename in 'help':
+	with open('README.txt', 'r') as f:
+		l = f.read()
+	print(l)
+	exit()
 
 print("Option:")
 print(" 1: << User time analysis >>")
@@ -256,9 +262,7 @@ user_option= int(input('Option -->'))
 option_stats (user_option)
 
 while True :
-	print('')
 	print('__________________________________________________________________________________')
-	print('')
 	print('Voulez-vous faire une autre choix?')
 	print("Option:")
 	print(" 1: << User time analysis >>")
