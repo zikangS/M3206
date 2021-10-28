@@ -3,7 +3,6 @@
 import json
 import re
 
-filename=str(input('File name? -->'))
 
 #fonction pour ouvrir et lire le fichier json (return une liste de dictionnaires)
 def open_file():
@@ -198,26 +197,84 @@ def analyse_machine():
 	print('HTC                 : '+'['+'■'*round(HTC/total*40)+']  ' + "{:.2f}".format(HTC/total*100) +'%')
 	print('Bots                : '+'['+'■'*round(nothing/total*40)+']  ' + "{:.2f}".format(nothing/total*100) +'%')
 
+#fonction pour le choix d'analysis 
+def option_stats (n) :
+	if n==1:
+		time_range()
+	elif n==2:
+		analyse_machine()
+	elif n==3:
+		analyse_response()
+	elif n==4:
+		analyse_page()
+	elif n==5:
+		analyse_ip()
+	elif n==6:
+		bytes_finder()
+	elif n==7:
+		print('')
+		time_range()
+		print('')
+		print('__________________________________________________________________________________')
+		print('')		
+		analyse_machine()
+		print('')
+		print('__________________________________________________________________________________')
+		print('')
+		analyse_response()
+		print('')
+		print('__________________________________________________________________________________')
+		print('')
+		analyse_page()
+		print('')
+		print('__________________________________________________________________________________')
+		print('')
+		analyse_ip()
+		print('')
+		print('__________________________________________________________________________________')
+		print('')
+		bytes_finder()
+		exit()
+	elif n==8:
+		exit()
+	else :
+		print('Input 1-8 only')
 
-print('')
-time_range()
-print('')
-print('__________________________________________________________________________________')
-print('')		
-analyse_machine()
-print('')
-print('__________________________________________________________________________________')
-print('')
-analyse_response()
-print('')
-print('__________________________________________________________________________________')
-print('')
-analyse_page()
-print('')
-print('__________________________________________________________________________________')
-print('')
-analyse_ip()
-print('')
-print('__________________________________________________________________________________')
-print('')
-bytes_finder()
+
+filename=str(input('File name? -->'))
+
+print("Option:")
+print(" 1: << User time analysis >>")
+print(" 2: << Machine analysis >>")
+print(" 3: << Error analysis >>")
+print(" 4: <<Page visit analysis>>")
+print(" 5: <<IP address analysis>>")
+print(" 6: <<Bytes analysis>>")
+print(" 7: All")
+
+user_option= int(input('Option -->'))
+option_stats (user_option)
+
+while True :
+	print('')
+	print('__________________________________________________________________________________')
+	print('')
+	print('Voulez-vous faire une autre choix?')
+	print("Option:")
+	print(" 1: << User time analysis >>")
+	print(" 2: << Machine analysis >>")
+	print(" 3: << Error analysis >>")
+	print(" 4: <<Page visit analysis>>")
+	print(" 5: <<IP address analysis>>")
+	print(" 6: <<Bytes analysis>>")
+	print(" 7: All")
+	print(" 8: No")
+	
+	user_option= int(input('Option -->'))
+	option_stats (user_option)
+	
+	
+
+
+
+
