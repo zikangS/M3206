@@ -12,7 +12,7 @@
 
 **Introduction**
 	
-As a new worker in a new company, our manager wants us to create a programme with some specifications.The purpose of this programme is to read a log file in apache format and change it to json format.From the json file, This programme will analyse the results and make a statistic from that. The statistic is made from the point of view of securité and the commercial view.
+As a new worker in a new company, our manager wants us to create a program with some specifications.The purpose of this program is to read a log file in apache format and change it to json format.From the json file, This program will analyse the results and make a statistic from that. The statistic is made from the point of view of security and the commercial view.
 
 **Features**
 
@@ -36,7 +36,7 @@ How to execute the program :
     1. Place yourself in the files where you install the program
             
             ~$ cd  [directory_name]/
-    1. Execute the code project.py of the programme using python 3 
+    1. Execute the code project.py of the program using python 3 
 
             ~$ cd Téléchargements/python3 project.py
     1. Insert the log file name (apache format) 
