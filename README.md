@@ -28,8 +28,10 @@ To use this program, you have to install python3 first. You can refer how to ins
 **Usage**
 
 How to execute the program :
-*Reminder : Make sure you have install python version 3*
-*all lines in log file are in LogFormat : "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\""*
+
+* Reminder : Make sure you have install python version 3*
+* all lines in log file are in LogFormat : "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\""*
+
 1. **Convert file in apache format to json format**
     1. Place yourself in the files where you install the program
             
