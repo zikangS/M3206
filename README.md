@@ -8,6 +8,7 @@
 1. Features
 1. Installation 
 1. Usage
+1. Project Members
 
 **Introduction**
 	
@@ -22,12 +23,13 @@ This program contains two main code :
 
 **Installation**
 
-to use this program, you have to install python3 first. You can refer how to install python version 3 at https://www.python.org/downloads/  
+To use this program, you have to install python3 first. You can refer how to install python version 3 at https://www.python.org/downloads/  
 
 **Usage**
 
 How to execute the program :
 *Reminder : Make sure you have install python version 3*
+*all lines in log file are in LogFormat : "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\""*
 1. **Convert file in apache format to json format**
     1. Place yourself in the files where you install the program
             
@@ -60,4 +62,6 @@ How to execute the program :
 			5 : IP address analysis
 			6 : Bytes analysis
 			7 : All
-	
+**Project Members**
+1. SIAU Zi Kang
+1. BIN ABDUL SHUKOR Muhammad Ariff
