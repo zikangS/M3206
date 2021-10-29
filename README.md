@@ -18,8 +18,8 @@ As a new worker in a new company, our manager wants us to create a programme wit
 
 This program contains two main code :
 		
-* code 1 which convert the log file from apache format to json format
-* code 2 which analyse the results make a statistic and display on a graphic interface
+* project.py which convert the log file from apache format to json format
+* stat.py which analyse the results make a statistic and display on a graphic interface
 
 **Installation**
 
@@ -36,9 +36,9 @@ How to execute the program :
     1. Place yourself in the files where you install the program
             
             ~$ cd  [directory_name]/
-    1. Execute the code converter.py of the programme using python 3 
+    1. Execute the code project.py of the programme using python 3 
 
-            ~$ cd Téléchargements/python3 converter.py
+            ~$ cd Téléchargements/python3 project.py
     1. Insert the log file name (apache format) 
 
             ~$ python3 project.py
