@@ -12,7 +12,7 @@
 
 **Introduction**
 	
-As a new worker in a new company, our manager wants us to create a program with some specifications.The purpose of this program is to read a log file in apache format and change it to json format.From the json file, This program will analyse the results and make a statistic from that. The statistic is made from the point of view of security and the commercial view.
+As a new worker in a new company, our manager wants us to create a program with some specifications.The purpose of this program is to read a log file in apache format and change it to json format.From the json file, This program will analyse the results and make a statistic. The statistic is made from the point of view of security and the commercial view.
 
 **Features**
 
